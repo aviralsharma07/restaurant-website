@@ -183,7 +183,6 @@ body {
 /* ####################### FOOD CATEGORY STYLING ######################## */
 
 #food {
-  border: #16a083;
   padding: 5rem 0 10rem 0;
 }
 
@@ -260,4 +259,62 @@ body {
 .image-container:hover .image-content {
   opacity: 1;
   top: 40%;
+}
+
+/* ####################### FOOD MENU STYLING ######################## */
+
+#food-menu {
+  border: #16a083;
+  padding: 5rem 0 10rem 0;
+}
+
+.food-menu-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0 30px 0;
+}
+
+.food-menu-container img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.food-description {
+  margin: auto 1.5rem;
+}
+
+.food-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.food-description p {
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.food-description .food-price {
+  color: #117964;
+  font-weight: 700;
 }
