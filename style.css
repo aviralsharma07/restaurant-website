@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -363,7 +364,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  margin: auto;
+  margin: 1.7rem auto;
 }
 
 /* ####################### CONTACT US STYLING ######################## */
@@ -427,3 +428,16 @@ body {
 .form-container a {
   font-size: 1.2rem;
 }
+
+/* ####################### FOOTER STYLING ######################## */
+
+#footer h2 {
+  text-align: center;
+  font-size: 2rem;
+  background: rgb(65, 65, 65);
+  color: #fff;
+  font-weight: 500;
+  padding: 2rem;
+}
+
+/* ####################### Media Queries ######################## */
