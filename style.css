@@ -318,3 +318,50 @@ body {
   color: #117964;
   font-weight: 700;
 }
+
+/* ####################### CUSTOMER REVIEW STYLING ######################## */
+
+#testimonials {
+  padding: 5rem 0;
+  background: rgb(243, 243, 243);
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.testimonial-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.testimonial-box .checked {
+  color: #ff9539;
+}
+
+.testiminal-box .testimonial-text {
+  margin: 1rem 0;
+  color: #444;
+}
+
+.testimonial-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.customer-photo img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+}
